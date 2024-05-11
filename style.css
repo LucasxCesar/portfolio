@@ -1,0 +1,722 @@
+
+
+
+
+
+
+
+*{
+   
+  
+  font-weight: 600;
+    font-style:normal;
+
+   
+
+
+}
+
+
+body{
+   
+  background-image: url(./imagens/agoravai02.png);
+
+ background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+  
+  
+  
+  
+}
+
+
+.nav-item .nav-link{
+ font-size: 25px;
+
+}
+
+
+
+
+
+.btn-sanduiche{
+
+   background-color: rgba(255, 255, 255, 0);
+   
+   
+
+
+}
+
+
+
+
+
+body::-webkit-scrollbar {
+    width: 8px; 
+    background-color: rgb(14, 1, 27);
+   
+  }
+  
+  
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: blueviolet;   
+    border-radius: 20px;       
+  
+  }
+
+.border-dark {
+border-bottom: 1px blueviolet;
+
+
+
+}
+
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1.5s;
+    transform: translateX(-100%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 0.5s;
+    transform: translateX(0);
+}
+
+    
+  
+section{
+    min-height: 100vh;
+}
+
+
+
+.nome{
+
+    color:blueviolet;
+    font-size: 45px;
+    
+
+    
+}
+
+
+   
+   
+
+    
+   
+    
+    
+   
+
+
+h1{
+    margin-bottom: 0px;
+}
+
+p{
+    margin: 0%;
+}
+
+
+
+#download, #falecomigo{
+    margin-top: 1vw;
+    border-radius: 20px;
+    background-color: blueviolet;
+    margin: 1vw;
+
+
+   
+ 
+   
+   
+   
+}
+
+#download:hover, #falecomigo:hover{
+    background: linear-gradient(
+        45deg,
+        hsla(276, 58%, 30%, 0.5),
+        hsla(270, 78%, 57%, 0.518) 100%
+      );
+
+      cursor: pointer;
+      transform: scale(1.3);
+      transition: 800ms;
+      filter: drop-shadow(0px 0px 10px blueviolet);
+  
+}
+
+
+
+#apresentacao{
+text-align: center;
+margin-right: 50vw;
+    color: aliceblue;
+    margin-top: 5vw;
+    margin-left: 18vw;
+  
+}
+
+
+
+
+#emoji_01{
+    margin-top: -15vw;
+    margin-right: 17vw;
+    height: 300px;
+}
+
+
+
+#sobre{
+
+    text-align: center;
+    align-items: center;
+margin-right: 44vw;
+    color: aliceblue;
+    margin-top: 5vw;
+    margin-left: 13vw;
+
+   
+    
+   
+}
+
+
+hr{
+    margin-top: 5vw;
+    border-color: blueviolet;
+}
+
+
+
+section{
+    min-height: 100vh;
+}
+
+
+
+#section02{
+ 
+overflow: hidden;
+  display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+ 
+}
+
+#section02 img{
+
+width: 80px;
+
+
+
+
+
+}
+
+#section02 img:hover{
+
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 800ms;
+    filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+ 
+    
+
+}
+
+
+#logos :nth-child(2){
+
+    transition-delay: 100ms;
+
+}
+#logos :nth-child(3){
+
+    transition-delay: 300ms;
+
+}
+#logos :nth-child(4){
+
+    transition-delay: 500ms;
+
+}
+#logos :nth-child(5){
+
+    transition-delay: 700ms;
+
+}
+#logos :nth-child(6){
+
+    transition-delay: 900ms;
+
+}
+#logos :nth-child(7){
+
+    transition-delay: 1100ms;
+
+}
+#logos :nth-child(8){
+
+    transition-delay: 1200ms;
+
+}
+#logos :nth-child(9){
+
+    transition-delay: 1300ms;
+
+}
+#logos :nth-child(10){
+
+    transition-delay: 1500ms;
+
+}
+
+
+
+#section03{
+
+justify-content: center;
+text-align: center;
+gap: 10vh;
+
+
+}
+
+.videos iframe{
+  width: 40vw;
+  height: 40vh;
+  border: none;
+
+}
+
+.videos{
+    display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+margin-left: 5vw;
+margin-right: 5vw;
+gap: 2vh;
+}
+
+.videos div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+#section04{
+
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+
+
+.divcontatos div i{
+
+    color: blueviolet;
+}
+
+.divcontatos div p{
+    color: aliceblue;
+}
+
+.divcontatos div i:hover{
+
+    filter: drop-shadow(0px 0px 8px rgb(255, 255, 255));
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 800ms;
+   
+
+}
+
+
+
+
+footer div {
+
+text-align: end;
+
+
+
+}
+
+
+
+#spanfoguete img{
+
+    animation: pulsar 3000ms infinite linear;
+   
+
+}
+
+
+#spanlua img{
+
+    animation: pulsar 3000ms infinite linear;
+}
+
+#spanestrelacadente img{
+
+    animation: pulsarestrela 1500ms infinite linear;
+
+
+
+
+}
+
+
+#spanovni{
+
+display: grid;
+justify-content: space-around;
+animation: rotacao 3000ms infinite linear;
+
+}
+
+#spanastronauta img {
+
+    margin-left: -35vw;
+    margin-top: -20vh;
+    animation: cair 3500ms infinite;
+
+    
+}
+
+#setasubir:hover{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+
+}
+
+
+
+
+
+
+
+
+
+@keyframes pulsar{
+
+  0%{
+    opacity: 0.5;
+
+  transform: rotate(0deg);
+  }
+
+  70%{
+    opacity: 0.10;
+    transform: rotate(3deg);
+  
+  }
+
+  100%{
+    opacity: 0.5;
+    transform: rotate(0deg);
+  }
+  
+
+
+}
+
+@keyframes pulsarestrela{
+
+    0%{
+      opacity: 0.5;
+  
+    transform: rotate(0deg);
+    }
+  
+    70%{
+      opacity: 0.10;
+      transform: rotate(3deg);
+    
+    }
+  
+    100%{
+      opacity: 100;
+      transform: rotate(1deg);
+    }
+    
+  
+  
+  }
+
+
+  @keyframes cair{
+
+    0% {
+     transform: translate(0);
+     
+  
+    }
+  
+    50%{
+      margin-bottom: -8vh;
+    
+  
+    }
+    100%{
+        transform: translate(0);
+
+    }
+
+
+  
+  }
+
+
+
+  @keyframes rotacao{
+
+    0%{
+transform: rotate(0deg);
+    }
+  
+
+
+ 
+
+
+    30%{
+
+        transform: rotate(-10deg);
+    }
+
+    70%{
+
+        transform: rotate(0deg);
+    }
+
+    100%{
+
+        transform: rotate(10deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    
+
+ 
+
+
+
+    #emoji_01 img, #spanestrelacadente, #spanastronauta {
+    
+      
+  display: none;
+   animation: none;
+  
+    }
+
+    #falecomigo, #download{
+
+        padding: 15px;
+    }
+
+
+    
+
+    #apresentacao {
+        align-items: center;
+        
+     
+width: 100vw;
+margin-left: 0vw;
+margin-right: 0vw;
+margin-bottom: 0vw;
+
+    color: aliceblue;
+    margin-top: 20vw;
+   
+ 
+
+    
+    }
+
+    
+
+    #sobre{
+margin-top: -20vw;
+       
+       
+ 
+   
+    }
+
+    #sobre p , h2{
+        width: 80vw;
+
+margin-left: -7vw;
+
+margin-bottom: 0vw;
+
+       
+    }
+
+
+    #section02{
+
+margin-top: 20vh;
+      display: flex;
+      flex-wrap: wrap;
+    gap: 10vh;
+
+       
+        
+      
+      
+      
+    }
+
+    #logos{
+
+
+margin-bottom: -5vh;
+   padding: 5vh;
+justify-content: space-between;
+    display: flex;
+        flex-wrap: wrap;
+    
+       
+
+
+        
+
+    
+  }
+
+  #section03{
+    margin-top: 20vh;
+    flex-wrap: wrap;
+ 
+  }
+
+  #section03 .videos {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+ 
+ 
+
+  
+
+
+}
+
+
+#section03 .videos iframe{
+
+    width: 90vw;
+
+}
+
+
+
+ 
+
+
+ #lucascesar  {
+
+
+font-size: 3vw;
+
+}
+
+
+
+
+
+}
+
+
+@media (max-width: 1000px){
+
+    #spanastronauta{
+position: absolute;
+
+
+    }
+} 
+
+
+
+
+
+@media (max-width: 500px){
+
+body{
+  
+ 
+    background-image: url(./imagens/backagoravai009.png) ;
+    background-size: cover;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+   
+
+    
+
+
+  }
+  
+  .backagoravai009.png{
+   
+    max-width: 100%;
+    max-width: 100%;
+  }
+
+
+  
+}
+
+
+
